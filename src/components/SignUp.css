@@ -1,0 +1,46 @@
+body{
+  background-color: #EDEDED;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.header{
+  background-image: url(../../public/imgs/icon.png);
+  height: 65px;
+  width: 200px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.containerDiv{
+  position: absolute;
+  top: 55px;
+  width: 100%;
+}
+.containerForm{
+  padding: 40px;
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border-radius: 25px;
+  text-align: center;
+}
+.containerForm img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 15px;
+}
+.containerForm h3{
+  display: inline;
+}
+input {
+  margin: 7px;
+}
+@media screen and (max-width:869px) {
+  .containerForm{
+    width:70%;
+  }
+  .containerDiv{
+    top: 70px;
+  }
+}
